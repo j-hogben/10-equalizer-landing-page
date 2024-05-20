@@ -5,7 +5,6 @@
   --clr-bright-orange: #fa7453;
   --clr-light-orange: #ffb964;
   --clr-off-white: #fcfaf9;
-  --clr-background-white: #f2f2f2;
   --clr-white: #ffffff;
 
   /* TYPOGRAPHY */
@@ -218,7 +217,7 @@ body {
   font-family: var(--ff-primary);
   font-weight: var(--fw-regular);
   color: var(--clr-dark-blue);
-  background-color: var(--clr-background-white);
+  background-color: var(--clr-off-white);
 }
 
 /* BACKGROUNDS */
