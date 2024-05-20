@@ -51,6 +51,12 @@
   --lh-button: var(--lh-900);
   --lh-footer: var(--lh-700);
 
+  --ls-l: -1px;
+  --ls-m: -.73px;
+  --ls-s: -.45px;
+
+  --ls-primary-heading: var(--ls-s);
+
   /* SPACING */
   --pp-s: 1.5rem;
   --pp-m: 2.25rem;
@@ -78,6 +84,8 @@
 
     --lh-body: var(--lh-500);
 
+    --ls-primary-heading: var(--ls-m);
+
     --page-padding: var(--pp-m);
   }
 }
@@ -92,6 +100,8 @@
     --lh-body: var(--lh-800);
     --lh-card-h: var(--lh-400);
     --lh-card-p: var(--lh-800);
+
+    --ls-primary-heading: var(--ls-l);
 
     --page-padding: var(--pp-l);
   }
@@ -162,6 +172,7 @@ button {
 .fs-lh-primary-heading {
   font-size: var(--fs-primary-heading);
   line-height: var(--lh-primary-heading);
+  letter-spacing: var(--ls-primary-heading);
 }
 
 .fs-lh-body {
